@@ -54,5 +54,5 @@ Additional command-line arguments to improve functionality:
 2. Occasionally, the scraper gets hung up on the first search page. This is likely a matter of checking the refresh loop to make sure it continues properly, but the scraper works well enough as is. A user can manually reload the first search page to get it going again.
 
 ## Additional Info
-This was designed in support of machine learning projects involving common animals. We are clearly leaving out what might appear to be some valuable information about the animals in question, namely breeds of cat and color for instance. However, there is a significant amount of disagreement regarding both the existence of some breeds and their presentation. Therefore, any supervised learning algorithm will require proper standardization by an expert.
+This was designed in support of machine learning projects involving common animals. We are clearly leaving out what might appear to be some valuable information about the animals in question (for instance breeds of cat and color). However, there is a significant amount of disagreement regarding both the existence of some breeds and their presentation. Therefore, any supervised learning algorithm will require proper standardization by an expert.
 
