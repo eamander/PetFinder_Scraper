@@ -215,7 +215,7 @@ def main():
         desired_path = os.path.join(os.curdir, "petfinder_image_data")
         if not os.path.exists(desired_path):
             os.mkdir(desired_path)  # make an image data folder inside the active directory
-        my_scraper.set_destination_folder(os.path.join(os.curdir, "petfinder_image_data"))
+        my_scraper.set_destination_folder(desired_path)
 
     # my_scraper.get_search_results()
     my_scraper.scrape_many_pages(2000, 2)
