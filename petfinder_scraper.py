@@ -209,9 +209,9 @@ class PetFinderScraper(object):
 
 def main():
     my_scraper = PetFinderScraper()
-    if sys.argv[1]:
+    try:
         my_scraper.set_destination_folder(sys.argv[1])
-    else:
+    except IndexError:
         desired_path = os.path.join(os.curdir, "petfinder_image_data")
         if not os.path.exists(desired_path):
             os.mkdir(desired_path)  # make an image data folder inside the active directory
